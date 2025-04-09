@@ -30,7 +30,7 @@ Before being fed into the model:
 
 ### 2.1 Base Model
 
-- **Model**: [`PrunaAI/PJMixers-Dev-Qwen2.5-RomboTiesTest-7B-bnb-8bit-smashed`](https://huggingface.co/PrunaAI/PJMixers-Dev-Qwen2.5-RomboTiesTest-7B-bnb-8bit-smashed?fbclid=IwY2xjawJeKvlleHRuA2FlbQIxMAABHrb2X698bG_ZayDmZ8Wg-pDChO2bpM9hg7UOjRieKrn6oSJ8oXgHLJqAsZH-_aem_KZkAsb-QnTM_UfMG0YHWZQ) (from HuggingFace)
+- **Model**: [`HuggingFaceH4/zephyr-7b-beta`](https://huggingface.co/HuggingFaceH4/zephyr-7b-beta) (from HuggingFace)
 - **Tuning**: LoRA on regulation-related queries and logic generation
 - **Framework**: HuggingFace `transformers`
 

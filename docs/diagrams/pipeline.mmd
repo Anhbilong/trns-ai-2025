@@ -5,7 +5,7 @@ flowchart TD
   B --> B3("Parsing for Logical Cues")
   B --> B4("Optional: Question Categorization")
 
-  B --> C("Fine-Tuned LLM (PrunaAI/PJMixers-Dev-Qwen2.5-RomboTiesTest-7B-bnb-8bit-smashed)")
+  B --> C("Fine-Tuned LLM (HuggingFaceH4/zephyr-7b-beta)")
   C --> C1("Convert NL to First-Order Logic")
 
   C1 --> D("Z3 Symbolic Reasoning")
